@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <input type="text" v-model="search" placeholder="Search by title..." class="form-control my-3" />
+    <input type="text" v-model="search" placeholder="Search ..." class="form-control my-3" />
     <div class="row">
       <div class="col-12 col-md-6 col-lg-4 col-xl-2 mb-3" v-for="(items, status) in filteredGrouped" :key="status">
         <div class="card h-100 p-0">
